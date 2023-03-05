@@ -1,5 +1,5 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10303689&assignment_repo_type=AssignmentRepo)
-# Título do Projeto
+# ISE - Inclusion Spectrum Education
 
 `CURSO: Sistemas de Informação`
 
@@ -7,19 +7,22 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Nós iremos projetar e criar um site cujo tem como objetivo instruir e auxiliar professores, instituições de ensino, pais e responsáveis que lidam e convivem com alunos nos quais são portadores de TDAH, e/ou transtorno do espectro autista. O projeto tem como objetivo facilitar o convívio, a adaptação e o aprendizado desses alunos dentro do ambiente acadêmico.
+Sendo necessário realizar o cadastro do aluno, com seus dados e suas necessidades especiais, facilitando então a identificação e prestação de auxílios ao respectivo aluno dentro da sala de aula.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Felipe Tabelini Pena
+* Fernando Augusto Fabiano de Souza
+* Gabrielle Lorrayne Fernandes Nascimento
+* Hudson Cordeiro Junior
+* João Victor Silva Thomazi
+* Victor Hugo Ferreira
+* Vinícius Caitano do Nascimento
 
 ## Orientador
 
-* Nome completo do professor 1
+* Fábio Leandro Rodrigues Cordeiro
 
 # Planejamento
 
