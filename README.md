@@ -17,6 +17,7 @@ Sendo necessário realizar o cadastro do aluno, com seus dados e suas necessidad
 * Gabrielle Lorrayne Fernandes Nascimento
 * Hudson Cordeiro Junior
 * João Victor Silva Thomazi
+* Paulo Haniel Marcedo de Castro
 * Victor Hugo Ferreira
 * Vinícius Caitano do Nascimento
 
