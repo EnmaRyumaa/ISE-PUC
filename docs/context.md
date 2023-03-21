@@ -34,13 +34,4 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+A equipe ISE (Inclusion Spectrum Education) vem trabalhando constantemente para melhorar o desenvolvimento no processo de ensino, tendo como a características dos alunos a desatenção, a agitação e a impulsividade. Evidencia-se que esse transtorno é um grande desafio para a educação. Buscamos investigar e propor ferramentas que auxiliam no processo de ensino-aprendizagem, temos como público alvo alunos na etapa do Ensino Fundamental e seus respectivos professores, sendo assim um “caminho de mão dupla” onde iremos buscar uma melhor experiencia de trabalho para o professor e de estudos para o aluno.
