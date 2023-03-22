@@ -15,9 +15,10 @@ Sendo necessário realizar o cadastro do aluno, com seus dados e suas necessidad
 * Felipe Tabelini Pena
 * Fernando Augusto Fabiano de Souza
 * Gabrielle Lorrayne Fernandes Nascimento
+* Guilherme Nunes Faria
 * Hudson Cordeiro Junior
 * João Victor Silva Thomazi
-* Paulo Haniel Marcedo de Castro
+* Paulo Haniel Macedo de Castro
 * Victor Hugo Ferreira
 * Vinícius Caitano do Nascimento
 
