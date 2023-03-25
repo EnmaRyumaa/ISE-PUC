@@ -16,12 +16,11 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo do projeto é desenvolver um software para o gerenciamento de alunos com TDAH e/ou transtorno do espectro autista. Este software será capaz de guardar todas as informações do aluno através de um cadastro contendo seus dados e suas necessidades especiais, facilitando assim a identificação e a prestação de auxílios ao respectivo aluno dentro da sala de aula. Uma escola será incluída para atender as necessidades e garantir o acesso/permanência do aluno com TDAH e/ou transtorno do espectro autista. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+
+Uma vez no banco de dados os professores e tutores terão acesso às informações que irá permitir que a escola atenda às necessidades do aluno, tendo em vista um melhor acompanhamento e monitoramento. Adaptações no cadastro são necessárias para desenvolver autonomia, para que novos conhecimentos e comportamentos sejam desenvolvidos no aluno.
+
 
 ## Justificativa
 
