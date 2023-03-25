@@ -29,4 +29,4 @@ Propocionar aos alunos a convivência com outras da mesma faixa etaria, possibil
 
 ## Público-Alvo
 
-A equipe ISE (Inclusion Spectrum Education) vem trabalhando constantemente para melhorar o desenvolvimento no processo de ensino, tendo como a características dos alunos a desatenção, a agitação e a impulsividade. Evidencia-se que esse transtorno é um grande desafio para a educação. Buscamos investigar e propor ferramentas que auxiliam no processo de ensino-aprendizagem, temos como público alvo alunos na etapa do Ensino Fundamental e seus respectivos professores, sendo assim um “caminho de mão dupla” onde iremos buscar uma melhor experiencia de trabalho para o professor e de estudos para o aluno.
+A equipe ISE (Inclusion Spectrum Education) estão trabalhando constantemente para buscar parcerias com instituições de ensino, professores, alunos com TDAH e seus respectivos familiares. Com ênfase nos estudantes na etapa do ensino fundamental com idade entre 11 a 14 anos que possuem características a desatenção, agitação e a impulsividade. E professores que não possuem apoio dos institutos em que trabalham.
