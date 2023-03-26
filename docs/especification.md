@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
-Pré-requisitos: [Teste](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2023-1-p1-proj-web-g3-grupo3/blob/main/docs/especification.md)
+Pré-requisitos: [Documentação de Contexto](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2023-1-p1-proj-web-g3-grupo3/blob/main/docs/context.md))
 
 ## Personas
 
