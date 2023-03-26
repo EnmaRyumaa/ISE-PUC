@@ -7,8 +7,7 @@
 
 `SEMESTRE: 1º`
 
-Nós iremos projetar e criar um site cujo tem como objetivo instruir e auxiliar professores, instituições de ensino, pais e responsáveis que lidam e convivem com alunos nos quais são portadores de TDAH, e/ou transtorno do espectro autista. O projeto tem como objetivo facilitar o convívio, a adaptação e o aprendizado desses alunos dentro do ambiente acadêmico.
-Sendo necessário realizar o cadastro do aluno, com seus dados e suas necessidades especiais, facilitando então a identificação e prestação de auxílios ao respectivo aluno dentro da sala de aula.
+Criação de uma aplicação que auxilia o aprendizado de alunos com TEA e TDAH na sala de aula.
 
 ## Integrantes
 
