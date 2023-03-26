@@ -1,6 +1,6 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O Transtorno do Espectro Autismo (TEA) e o Transtorno do Déficit de Atenção com Hiperatividade (TDAH) são transtornos neurobiológicos que afetam o comportamento do indivíduo, com os primeiros sinais aparecendo na infância. Com o aumento de diagnósticos nos últimos anos, percebe-se que nas escolas há falta de ferramentas de auxílio aos professores para ajudar no aprendizado dos alunos com TEA e TDAH.
 
 ## Problema
 
