@@ -22,10 +22,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | Responsável |
-|------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
+|ID    | Descrição do Requisito  | Prioridade | 
+|------|-----------------------------------------|----|
+|RF-001| Permitir que a coordenação cadastre os alunos | ALTA | 
+|RF-002| Permitir que os pais coloquem informações dos seus filhos   | ALTA | 
+|RF-003| Permitir que os professores coloquem informações dos seus alunos   | ALTA |
+|RF-004| Permitir que os pais vejam as informações fornecidas pelos professores | MÉDIA |
+|RF-005| Permitir que os professores vejam as informações fornecidas pelos pais   | MÉDIA |
 
 
 ### Requisitos não Funcionais
@@ -33,22 +36,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-002| As cores da aplicação tem que ser acordo com as cores do símbolo do autismo |  BAIXA | 
+|RNF-003| Tem que ter opção de fonte e cores para dautônicos |  BAIXA | 
+|RNF-004| Site deve ser desenvolvido com estrutura que facilite a manutenção |  BAIXA |
+|RNF-005| Site facilitado para quem não tem facilidade com internet  |  BAIXA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -57,6 +49,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|02| O desenvolvimento do projeto estará limitado a 9 colaboradores       |
+
 
 
