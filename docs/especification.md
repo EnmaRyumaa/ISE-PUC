@@ -3,7 +3,7 @@
 Pré-requisitos: [Documentação de Contexto](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2023-1-p1-proj-web-g3-grupo3/blob/main/docs/context.md)
 
 ## Personas
-
+1. Eliane Ribeiro tem 37 anos de idade é mãe solteira do Pedro que tem 10 anos. Nasceu e formou em Minas Gerais. Cursou pedagogia pela UFMG e é concursada pública atuando na área da educação há 7 anos. Nas horas livres gosta de pedalar com o namorado. Seu sonho é casar e ter um apartamento. Deseja e procura atender as particularidades dos alunos para que acompanhem o desenvolvimento da turma sem que fiquem prejudicado em suas atividades escolares. 
 
 ## Histórias de Usuários
 
