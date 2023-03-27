@@ -3,9 +3,11 @@
 Pré-requisitos: [Documentação de Contexto](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2023-1-p1-proj-web-g3-grupo3/blob/main/docs/context.md)
 
 ## Personas
-1. Samuel Moreira possui 45 anos, trabalhou por 6 anos como coordenador pedagógico na rede municipal de Ibirité. E atualmente é diretor da Escola João de Barro. Formou em pedagogia pelo IFMG, Ouro Branco. No tempo livre gosta de ler clássicos da literatura e assistir filmes. Sua maior dificuldade é organizar e envolver os professores, alunos e familiares para construir pedagogia mais inclusiva.
+1. Samuel Moreira tem 45 anos, nascido e criado em Ouro Branco, trabalhou por 6 anos como coordenador pedagógico na rede municipal de Ibirité. É atualmente o diretor da Escola João de Barro. Formou em pedagogia pelo IFMG de Ouro Branco. No tempo livre gosta de ler clássicos da literatura e assistir filmes. Sua maior dificuldade é em se organizar para conseguir envolver os professores, alunos e familiares na construção de uma forma de ensino mais inclusiva.
 
-2. Eliane Ribeiro tem 37 anos de idade é mãe solteira do Pedro que tem 10 anos. Nasceu e formou em Minas Gerais. Cursou pedagogia pela UFMG e é concursada pública atuando na área da educação há 7 anos. Nas horas livres gosta de pedalar com o namorado. Seu sonho é casar e ter um apartamento. Deseja e procura atender as particularidades dos alunos para que acompanhem o desenvolvimento da turma sem que fiquem prejudicado em suas atividades escolares. 
+2. Elisangela Soares tem 38 anos, é mãe solteira do Gabriel, que tem 10 anos. Nascida e criada em Itabirito. Cursou pedagogia pela UFMG e é concursada, atuando na área da educação há 14 anos. No tempo livre gosta de andar de bicicleta com o namorado. Ela busca, diariamente, atender as particularidades dos alunos para que estes, possam acompanhar as atividades e conseguir seguir a grade curricular, para que não haja abismos na educação de seus alunos.
+
+3. Roberta Oliveira tem 52 anos, é casada e tem três filhas, Maria Júlia de 25 anos, Clara de 14 anos e Ana Beatriz de 12 anos. Ela é dona de casa e mora em Belo Horizonte. Ela cuida de todos os afazeres domésticos, além de cuidar de seus animais de estimação e levar suas duas filhas mais novas para a escola e por isso seu tempo é extremamente curto. No tempo livre gosta de caminhar e conversar com suas amigas. Clara, a filha do meio, é diagnosticada com TDH, e Roberta tem enfrentado dificuldades com o desempenho escolar de sua filha, devido a hiperatividade e a falta de foco. 
 
 ## Histórias de Usuários
 
