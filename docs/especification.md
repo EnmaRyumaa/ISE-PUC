@@ -85,6 +85,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| Não deverá ter backend |
 |03| O desenvolvimento do projeto estará limitado a 9 colaboradores|
 |04| Não deverá ser usado framework |
+|05| O aplicativo deve se restringir às tecnologias básicas da Web no Frontend |
 
 
 
