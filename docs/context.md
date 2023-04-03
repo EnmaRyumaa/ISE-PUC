@@ -16,7 +16,7 @@ Uma vez no banco de dados os professores e tutores terão acesso às informaçõ
 ## Justificativa
 
 A aplicação ISE irá ajudar os professores a englobar as particularidades dos alunos com TDAH em sala de aula por meio dos dados presentes na aplicação, tornando o ambiente escolar mais inclusivo e acolhedor. Além disso, a aplicação também permite que os responsáveis dos alunos acompanhem de perto o desempenho escolar de seus filhos em tempo real, bem como tenham acesso a dicas e orientações para ajudá-los a lidar com o TDAH em casa. 
-A aplicação irá ajudar professores, alunos e responsáveis a manter um diálogo mais íntimo, como por exemplo quando a criança troque de professor, o substituto já tenha todos os dados desta criança para poder melhor ensina-la
+A aplicação irá ajudar professores, alunos e responsáveis a manter um diálogo mais íntimo, como por exemplo quando a criança troque de professor, o substituto já tenha todos os dados desta criança para poder melhor ensina-la, assim proporcionando convivência com crianças da mesma idade e evitando conflitos.
 
 ## Público-Alvo
 
