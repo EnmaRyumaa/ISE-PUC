@@ -56,6 +56,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005| Permitir que os professores vejam as informações fornecidas pelos pais   | MÉDIA | Paulo |
 |RF-006| Permitir que os professores possam avaliar o desempenho dos alunos  | ALTA | Hudson |
 |RF-007|Permitir que os dados de cadastro dos alunos, pais e professores sejam gerenciados através de arquivos JSON  | ALTA | Guilherme |
+|RF-008|Permitir editar perfil do aluno  | ALTA | Felipe |
 
 
 ### Requisitos não Funcionais
