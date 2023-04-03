@@ -15,7 +15,7 @@ Jorge quer proporcionar um ensino diferenciado para Juliana, que abranja suas di
 
 5. Raquel Nascimento tem 27 anos, é solteira e mora em um condomínio de apartamento com seus pais em São João Del Rei. Atualmente está finalizando sua licenciatura na UFSJ em matemática. Nasceu e cresceu em Pará de Minas. Trabalha em uma escola há 3 anos. Gosta de cantar e cozinhar. Deseja uma educação inclusiva onde os pais das crianças com espectro autista e TDAH, possam além de identificar essas condições logo na infância, ter contato com os progressos e dificuldade que seus filhos enfrentam.
 
-6. Maria Fernanda tem 37 anos, é divorsiada, mora com seu cachorro chamado Spike e seu filho, Ricardo de 7 anos. Nascida e criada em Mariana. Trabalha na secretaria de uma escola paticular em Ouro Preto há 10 anos. No tempo livre gosta de passear com o Spike e ler alguns contos para o Ricardo. Engajada em projetos sociais dentro da escola em que trabalha, procura meios para manter os professores informados dos alunos com condições especiais que ingressam na instituição.
+6. Maria Fernanda tem 37 anos, é divorciada, mora com seu cachorro chamado Spike e seu filho, Ricardo de 7 anos. Nascida e criada em Mariana. Trabalha na secretaria de uma escola paticular em Ouro Preto há 10 anos. No tempo livre gosta de passear com o Spike e ler alguns contos para o Ricardo. Engajada em projetos sociais dentro da escola em que trabalha, procura meios para manter os professores informados dos alunos com condições especiais que ingressam na instituição.
 
 7. Wellington Alves tem 50 anos, é casado com Andreia Lopes e tem um filho de outro relacionamento, José de 22 anos. Nascido no Rio de janeino, se mudou para a capital de São Paulo quando era adolescente. Atualmente é cordenador pedagógico de uma escola municipal. No tempo livre gosta de frequentar bares e museus perto da sua casa.  Quer trazer inovação para o ambiente escolar, potencializando o ensino oferecido a seus alunos, facilitando a comunicação dentro e fora da escola aproximando os pais e responsáveis.
 
@@ -35,35 +35,38 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
-// Add no minimo um pra cada personas 
-|ID    | Descrição do Requisito  | Prioridade | 
-|------|-----------------------------------------|----|
-|RF-001| Permitir que a coordenação cadastre os alunos | ALTA | 
-|RF-002| Permitir que os pais coloquem informações dos seus filhos   | ALTA | 
-|RF-003| Permitir que os professores coloquem informações dos seus alunos   | ALTA |
-|RF-004| Permitir que os pais vejam as informações fornecidas pelos professores | MÉDIA |
-|RF-005| Permitir que os professores vejam as informações fornecidas pelos pais   | MÉDIA |
+|ID    | Descrição do Requisito  | Prioridade | Responsável | 
+|------|-----------------------------------------|----|----|
+|RF-001| Permitir que a coordenação cadastre os alunos | ALTA | Gabrielle |
+|RF-002| Permitir que os pais coloquem informações dos seus filhos   | ALTA | Felipe | 
+|RF-003| Permitir que os professores coloquem informações dos seus alunos   | ALTA | Gabrielle |
+|RF-004| Permitir que os pais vejam as informações fornecidas pelos professores | MÉDIA | Guilherme |
+|RF-005| Permitir que os professores vejam as informações fornecidas pelos pais   | MÉDIA | Paulo |
+|RF-006| Permitir que os professores possam avaliar o desempenho dos alunos  | ALTA | Hudson |
 
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| As cores da aplicação tem que ser acordo com as cores do símbolo do autismo |  BAIXA | 
-|RNF-003| Tem que ter opção de fonte e cores para dautônicos |  BAIXA | 
-|RNF-004| Site deve ser desenvolvido com estrutura que facilite a manutenção |  BAIXA |
-|RNF-005| Site facilitado para quem não tem facilidade com internet  |  BAIXA |
+|ID     | Descrição do Requisito  |Prioridade | Responsável | 
+|-------|-------------------------|----|----|
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | Victor |
+|RNF-002| As cores da aplicação tem que ser acordo com as cores do símbolo do autismo |  BAIXA | Vinicius |
+|RNF-003| Tem que ter opção de fonte e cores para dautônicos |  BAIXA | Joao |
+|RNF-004| Site deve ser desenvolvido com estrutura que facilite a manutenção |  BAIXA | Fernando |
+|RNF-005| Site facilitado para quem tem dificuldades com a internet  |  BAIXA | Fernando |
+|RNF-006| O sistema deve ter uma interface limpa e intuitiva  |  ALTA | Guilherme |
+
 
 
 ## Restrições
-//Add mais restrições
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| O desenvolvimento do projeto estará limitado a 9 colaboradores       |
+|02| Não deverá ter backend |
+|03| O desenvolvimento do projeto estará limitado a 9 colaboradores|
+|04| Não deverá ser usado framework |
 
 
 
