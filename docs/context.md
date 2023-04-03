@@ -3,8 +3,7 @@
 O Transtorno do Espectro Autismo (TEA) e o Transtorno do Déficit de Atenção com Hiperatividade (TDAH) são transtornos neurobiológicos que afetam o comportamento do indivíduo, com os primeiros sinais aparecendo na infância. Com o aumento de diagnósticos nos últimos anos, percebe-se que nas escolas há falta de ferramentas de auxílio aos professores para ajudar no aprendizado dos alunos com TEA e TDAH.
 
 ## Problema
-//Falar sobre o problema, dificuldade e o transtorno do pessoal tdah, auxiliar o transtorno 
-O projeto consiste em melhorar o suporte prestado nas escolas para jovens de 11 a 14 anos que apresentam TEA (Transtorno do Espectro Autista) e TDAH (Transtorno do Déficit de Atenção com Hiperatividade), a partir de uma aplicação web que trará os inputs de dados dos alunos feito pelos pais, afim de facilitar a ação dos profissionais da educação.
+Durante a vida escolar de uma pessoa que apresenta Transtorno do Espectro Autista (TEA) e Transtorno do déficit de atenção com hiperatividade (TDAH), ocorrem diversas crises, causadas por situações atípicas, que prologam o período de crise e evidenciam a falta de preparo dos profissionais da educação para lidar com esse tipo de situação. A inexistência de ferramentas que auxiliam os educadores a administrarem essas situações perpetuam na sociedade e evidenciam a lacuna de informação a respeito do autismo na atualidade, uma vez que não retratam maneiras de como tranquilizar os portadores do espectro autista durante os momentos de crise.
 
 ## Objetivos
 //
