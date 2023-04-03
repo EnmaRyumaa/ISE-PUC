@@ -19,6 +19,18 @@ Jorge quer proporcionar um ensino diferenciado para Juliana, que abranja suas di
 
 7. Wellington Alves tem 50 anos, é casado com Andreia Lopes e tem um filho de outro relacionamento, José de 22 anos. Nascido no Rio de janeino, se mudou para a capital de São Paulo quando era adolescente. Atualmente é cordenador pedagógico de uma escola municipal. No tempo livre gosta de frequentar bares e museus perto da sua casa.  Quer trazer inovação para o ambiente escolar, potencializando o ensino oferecido a seus alunos, facilitando a comunicação dentro e fora da escola aproximando os pais e responsáveis.
 
+8. Luís tem 35 anos, casado e pai de um menino de 7 anos. Ele mora em Belo Horizonte, onde trabalha como gerente em uma empresa de tecnologia. Luís é um pai amoroso e dedicado, mas está lutando para lidar com o TDAH de seu filho. Ele está constantemente preocupado com o desempenho escolar de seu filho e com o comportamento desafiador que ele enfrenta em casa e na escola. Luís quer encontrar recursos e ferramentas que possam ajudá-lo a entender melhor o TDAH e como ajudar seu filho a superar os desafios que ele enfrenta. No tempo livre, Luís gosta de jogar futebol com os amigos e assistir a filmes de ficção científica. Ele gostaria de encontrar soluções práticas para lidar com o TDAH de seu filho e ajudá-lo a ter sucesso na escola e em sua vida pessoal.
+
+9. João tem 40 anos, é engenheiro e casado com Bruna Diniz, pai de uma criança autista de 8 anos chamada Enzo. João é um pai dedicado que se preocupa profundamente com o bem-estar de seu filho autista. Ele é um profissional bem-sucedido, mas sua vida gira em torno das necessidades do filho. Desde o diagnóstico do transtorno do espectro autista (TEA), João tem se dedicado intensamente à busca por informações, terapias e recursos para apoiar o desenvolvimento de seu filho. Ele se sente muitas vezes sobrecarregado e inseguro em relação ao futuro, mas não desiste de buscar soluções para garantir que seu filho possa ter a melhor qualidade de vida possível.
+
+10. Eduardo tem 44 anos e é casado com Ana Cléia Valentim Romão de Lima. O filho Eric do casal tem um grau leve de autismo. Ele é verbal, frequenta uma escola estadual de ensino regular e está no sétimo ano. Ele ama aprender coisas novas. Ele aprendeu inglês sozinho assistindo a vídeos no Youtube, por exemplo.
+Na casa, vive Érick, seus pais e Fubá, um cachorro que é o amor da família, especialmente do garoto. O pai é vendedor, no momento desempregado, e que dedica seu dia a dia totalmente ao filho, levando-o às terapias, auxiliando-o nas atividades escolares, etc. A mãe do garoto é auxiliar de farmácia. A família participa da associação, Amada de Bragança Paulista, que é um grupo de pais e mães de autistas da cidade onde moram, no interior de São Paulo. Eduardo conta que antes da pandemia, eles se reuniam regularmente, faziam festas, e diversas atividades em prol dos autistas e seus direitos.
+
+11. Pedro tem 28 anos, solteiro, reside na grande BH e divide seu apartamento com seu cachorro. Atua como professor da rede pública na região do Barreiro. Durante seu tempo livre, gosta de estudar sobre a TEA, transtorno do espectro autista, a fim de desenvolver seus conhecimentos e poder prestar suporte para as pessoas que possuem o transtorno.
+
+12. João é um pai solteiro de 30 anos, empresário, e solteiro, que está lutando para equilibrar seu trabalho com as necessidades de seu filho Lucas, de 6 anos de idade, que foi diagnosticado com TDAH. Ele está constantemente preocupado com a falta de progresso de Lucas na escola e com seu comportamento desafiador em casa. João não tem muita experiência em lidar com crianças, e se sente frustrado e incapaz de ajudar Lucas como ele gostaria. Ele frequentemente se sente sobrecarregado com as responsabilidades de ser pai e empresário ao mesmo tempo. Apesar disso, João tem um grande amor por seu filho e está comprometido em ajudá-lo a lidar com seu TDAH. Ele está em busca de recursos e apoio para ajudá-lo a entender melhor o transtorno e como ajudar Lucas a superar os desafios que enfrenta diariamente.
+
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
@@ -43,6 +55,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004| Permitir que os pais vejam as informações fornecidas pelos professores | MÉDIA | Guilherme |
 |RF-005| Permitir que os professores vejam as informações fornecidas pelos pais   | MÉDIA | Paulo |
 |RF-006| Permitir que os professores possam avaliar o desempenho dos alunos  | ALTA | Hudson |
+|RF-007|Permitir que os dados de cadastro dos alunos, pais e professores sejam gerenciados através de arquivos JSON  | ALTA | Guilherme |
 
 
 ### Requisitos não Funcionais
@@ -55,6 +68,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-004| Site deve ser desenvolvido com estrutura que facilite a manutenção |  BAIXA | Fernando |
 |RNF-005| Site facilitado para quem tem dificuldades com a internet  |  BAIXA | Fernando |
 |RNF-006| O sistema deve ter uma interface limpa e intuitiva  |  ALTA | Guilherme |
+|RNF-007| O sistema deve ser compatível com os equipamentos existentes na escola  |  ALTA | Hudson |
+|RNF-008| O projeto deve ser desenvolvido utilizando tecnologias open source  |  ALTA | Gabrielle e Guilherme |
 
 
 
