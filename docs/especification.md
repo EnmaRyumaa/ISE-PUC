@@ -3,12 +3,21 @@
 Pré-requisitos: [Documentação de Contexto](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2023-1-p1-proj-web-g3-grupo3/blob/main/docs/context.md)
 
 ## Personas
-//Add mais personas 
+
 1. Samuel Moreira tem 45 anos, nascido e criado em Ouro Branco, trabalhou por 6 anos como coordenador pedagógico na rede municipal de Ibirité. É atualmente o diretor da Escola João de Barro. Formou em pedagogia pelo IFMG de Ouro Branco. No tempo livre gosta de ler clássicos da literatura e assistir filmes. Sua maior dificuldade é em se organizar para conseguir envolver os professores, alunos e familiares na construção de uma forma de ensino mais inclusiva.
 
 2. Elisangela Soares tem 38 anos, é mãe solteira do Gabriel, que tem 10 anos. Nascida e criada em Itabirito. Cursou pedagogia pela UFMG e é concursada, atuando na área da educação há 14 anos. No tempo livre gosta de andar de bicicleta com o namorado. Ela busca, diariamente, atender as particularidades dos alunos para que estes, possam acompanhar as atividades e conseguir seguir a grade curricular, para que não haja abismos na educação de seus alunos.
 
 3. Roberta Oliveira tem 52 anos, é casada e tem três filhas, Maria Júlia de 25 anos, Clara de 14 anos e Ana Beatriz de 12 anos. Ela é dona de casa e mora em Belo Horizonte. Ela cuida de todos os afazeres domésticos, além de cuidar de seus animais de estimação e levar suas duas filhas mais novas para a escola e por isso seu tempo é extremamente curto. No tempo livre gosta de caminhar e conversar com suas amigas. Clara, a filha do meio, é diagnosticada com TDH, e Roberta tem enfrentado dificuldades com o desempenho escolar de sua filha, devido a hiperatividade e a falta de foco. 
+
+4. Jorge Moreira tem 40 anos, é casado com Maria Isabel e tem uma filha, Juliana de 10 anos, uma criança do espectro autista. Nasceu em Lavras e se mudou para o centro de Belo Horizonte, com intuito de buscar melhores oportunidades de emprego e escola para sua filha. Graduado em engenharia civil e trabalha a dois anos em uma empresa estatal, como chefe de obras. Gosta de jogar video-game com a sua filha e futebol as quartas-feira com o pessoal da empresa. 
+Jorge quer proporcionar um ensino diferenciado para Juliana, que abranja suas dificuldades e suas qualidades e que seja moldado para ela.
+
+5. Raquel Nascimento tem 27 anos, é solteira e mora em um condomínio de apartamento com seus pais em São João Del Rei. Atualmente está finalizando sua licenciatura na UFSJ em matemática. Nasceu e cresceu em Pará de Minas. Trabalha em uma escola há 3 anos. Gosta de cantar e cozinhar. Deseja uma educação inclusiva onde os pais das crianças com espectro autista e TDAH, possam além de identificar essas condições logo na infância, ter contato com os progressos e dificuldade que seus filhos enfrentam.
+
+6. Maria Fernanda tem 37 anos, é divorsiada, mora com seu cachorro chamado Spike e seu filho, Ricardo de 7 anos. Nascida e criada em Mariana. Trabalha na secretaria de uma escola paticular em Ouro Preto há 10 anos. No tempo livre gosta de passear com o Spike e ler alguns contos para o Ricardo. Engajada em projetos sociais dentro da escola em que trabalha, procura meios para manter os professores informados dos alunos com condições especiais que ingressam na instituição.
+
+7. Wellington Alves tem 50 anos, é casado com Andreia Lopes e tem um filho de outro relacionamento, José de 22 anos. Nascido no Rio de janeino, se mudou para a capital de São Paulo quando era adolescente. Atualmente é cordenador pedagógico de uma escola municipal. No tempo livre gosta de frequentar bares e museus perto da sua casa.  Quer trazer inovação para o ambiente escolar, potencializando o ensino oferecido a seus alunos, facilitando a comunicação dentro e fora da escola aproximando os pais e responsáveis.
 
 ## Histórias de Usuários
 
