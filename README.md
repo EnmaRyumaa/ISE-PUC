@@ -7,7 +7,7 @@
 
 `SEMESTRE: 1º`
 
-Criação de uma aplicação que auxilia o aprendizado de alunos com TEA e TDAH na sala de aula. // Criar em um a dois paragrafos sobre o obrjetivo da aplicação
+Criação de uma aplicação que auxilia o aprendizado de alunos com TEA e TDAH na sala de aula.
 
 ## Integrantes
 
