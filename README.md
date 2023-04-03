@@ -24,6 +24,8 @@ Criação de uma aplicação que auxilia o aprendizado de alunos com TEA e TDAH 
 ## Orientador
 
 * Fábio Leandro Rodrigues Cordeiro
+* Franciele Cristina Parreiras Rodrigues
+* Cristiano Geraldo Teixeira Silva
 
 # Planejamento
 
