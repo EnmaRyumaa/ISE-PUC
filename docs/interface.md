@@ -9,7 +9,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 <img width="6769" alt="user_flow" src="https://user-images.githubusercontent.com/126530972/235269249-5fb71990-b1a4-41f5-91fc-c2330a120347.png">
 
 Aqui apresentamos como será feita e interação do nosso software com o usuário.
-> Membros da equipe:<b>
+> **Membros da equipe:**<br>
 > Hudson Cordeiro Junior: Realizado o desenvolvimeto do user flow <br>
 > Vinícius Caitano do Nascimento: Realizado o desenvolvimeto do user flow <br>
 > Paulo Haniel Macedo de Castro : Realizado o desenvolvimeto do user flow <br>
