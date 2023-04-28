@@ -8,12 +8,14 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 ## User Flow
 <img width="6769" alt="user_flow" src="https://user-images.githubusercontent.com/126530972/235269249-5fb71990-b1a4-41f5-91fc-c2330a120347.png">
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+Aqui apresentamos como será feita e interação do nosso software com o usuário.
+Membros da equipe:
+Hudson Cordeiro Junior: Realizado o desenvolvimeto do user flow
+Vinícius Caitano do Nascimento: Realizado o desenvolvimeto do user flow
+Paulo Haniel Macedo de Castro : Realizado o desenvolvimeto do user flow
 
 > **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+> - [User Flow: Acesse nosso fluxo para maior compreenção do fluxo de usuario] (https://www.figma.com/file/xULlctywxklSO9ouGXrmom/Untitled?type=whiteboard&node-id=1%3A1815&t=5xGXVxLQMhK5SUBA-1)
 
 
 ## Wireframes
