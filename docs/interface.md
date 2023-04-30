@@ -27,10 +27,6 @@ Conforme a prioridade de telas contidas no fluxo presente no User Flow, a seguir
 
 ### Tela de Home-Page
 
-<img alt="" src="../src/imgs/homepage.png">
-Figura 1 - Tela de Home-Page
-
-
 <img alt="" src="../src/imgs/a_professor">
 Figura 2 - Tela de acesso do professor
 
@@ -43,6 +39,7 @@ Figura 3 - Tela de acesso do responsável
 Figura 4 - Tela de acesso da coordenação
 
 
+### Tela de login
 <img alt="" src="../src/imgs/login_e_cadastro.png">
 Figura 5 - Tela de login e cadastro
 
