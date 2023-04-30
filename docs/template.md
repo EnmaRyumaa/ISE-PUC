@@ -1,10 +1,24 @@
 # Template padrão do site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+### Tela de Home-Page
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+<img alt="" src="../src/imgs/homepage.png">
+Figura 1 - Tela de Home-Page
+
+
+### Telas de acessos
+
+<img alt="" src="../src/imgs/a_professor">
+Figura 2 - Tela de acesso do professor
+
+<img alt="" src="../src/imgs/a_responsavel.png">
+Figura 3 - Tela de acesso do responsável
+
+
+<img alt="" src="../src/imgs/a_cordenacao.png">
+Figura 4 - Tela de acesso da coordenação
+
+
+### Tela de login
+<img alt="" src="../src/imgs/login_e_cadastro.png">
+Figura 5 - Tela de login e cadastro
