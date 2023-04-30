@@ -21,15 +21,29 @@ Aqui apresentamos como será feita e interação do nosso software com o usuári
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Conforme a prioridade de telas contidas no fluxo presente no User Flow, a seguir são apresentadas as telas principais. Todas as telas apresentadas possuem dois grandes blocos, descritos a seguir: 
+* Cabeçalho - consta a logo a ser definida pela equipe ISE, dados para a definição da aplicação de acordo com á página.
+* Conteúdo - local visível em tela em que se é possível ver o conteúdo por ela abordado.
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+### Tela de Home-Page
+
+<img alt="" src="../src/imgs/homepage.png">
+Figura 1 - Tela de Home-Page
+
+
+<img alt="" src="../src/imgs/a_professor">
+Figura 2 - Tela de acesso do professor
+
+
+<img alt="" src="../src/imgs/a_responsavel.png">
+Figura 3 - Tela de acesso do responsável
+
+
+<img alt="" src="../src/imgs/a_cordenacao.png">
+Figura 4 - Tela de acesso da coordenação
+
+
+<img alt="" src="../src/imgs/login_e_cadastro.png">
+Figura 5 - Tela de login e cadastro
+
+
