@@ -43,4 +43,12 @@ Figura 4 - Tela de acesso da coordenação
 <img alt="" src="../src/imgs/login_e_cadastro.png">
 Figura 5 - Tela de login e cadastro
 
+> **Membros da equipe:**<br><br>
+> Felipe Tabelini: Suporte no esboço das páginas da aplicação e criação das telas no figma<br>
+> Victor Hugo Ferreira: Realizou o esboço das páginas da aplicação<br>
+> João Victor Silva Thomazi: Realizou esboço das páginas da aplicação<br>
+
+
+> **Links Úteis**:
+> - [Wireframes: Acesse nosso wireframe para maior compreensão] (https://www.figma.com/file/rdLrPGq5KqKpOlw8u0kk72/Untitled?node-id=0%3A1&t=47VAjrXUnKTgFHjL-1)
 
