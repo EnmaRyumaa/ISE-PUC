@@ -25,7 +25,12 @@ Conforme a prioridade de telas contidas no fluxo presente no User Flow, a seguir
 * Cabeçalho - consta a logo a ser definida pela equipe ISE, dados para a definição da aplicação de acordo com á página.
 * Conteúdo - local visível em tela em que se é possível ver o conteúdo por ela abordado.
 
+
 ### Tela de Home-Page
+
+<img alt="" src="../src/imgs/homepage.png">
+Figura 1 - Tela de Home-Page
+
 
 <img alt="" src="../src/imgs/a_professor">
 Figura 2 - Tela de acesso do professor
@@ -42,6 +47,7 @@ Figura 4 - Tela de acesso da coordenação
 ### Tela de login
 <img alt="" src="../src/imgs/login_e_cadastro.png">
 Figura 5 - Tela de login e cadastro
+
 
 > **Membros da equipe:**<br><br>
 > Felipe Tabelini: Suporte no esboço das páginas da aplicação e criação das telas no figma<br>
