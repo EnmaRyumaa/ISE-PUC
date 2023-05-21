@@ -32,9 +32,9 @@ Os participantes discutiram os requisitos técnicos necessários para a conclus�
      Participação na organização e estruturação do trabalho; <br>
      
    * Guilherme Nunes Faria: <br>
-   xxx <br>
-   xyz <br>
-   zzz <br>   
+     Desenvolvimento da Página da Coordenação; <br>
+     Suporte no desenvolvimento de telas como Login/Cadastro/Recuperação de Senha e área do responsável; <br>
+     Suporte no gerenciamento de controle de versão (Git/Github) da aplicação aos membros da minha equipe, auxiliando-os na execução dessa tarefa;<br>   
    
    * Hudson Cordeiro Junior: <br>
    xxx <br>
