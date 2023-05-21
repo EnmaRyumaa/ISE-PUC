@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="pt-br" data-bs-theme="auto">
+  <head>
+    <script src="../assets/js/color-modes.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <title>ISE - Inclusion Spectrum Education</title>
+
+    <!-- link da biblioteca do bootstrap, fontAwesome e Css da pagina -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styleHomePage.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  </head>
+
+  <body>
+    <!-- Cabeçalho do site -->
+    <header class="header-fixed-height">
+      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="../imgs/logoISE.png" alt="ISE Logo">
+          </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                  aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                  <ul class="navbar-nav mb-2 mb-md-0">
+                    <li class="nav-item has-submenu">
+                      <a class="nav-link home text-end" aria-current="page" href="#"><i class="fas fa-home"></i>&nbsp;Home&nbsp;<i class="fas fa-sort-down"></i></a>
+                      <ul class="submenu">
+                        <li>
+                          <a href="#pagina1">Informações</a>
+                        </li>
+                        <li>
+                          <a href="#pagina2">Informações</a>
+                        </li>
+                        <li>
+                          <a href="#pagina3">Informações</a>
+                        </li>
+                      </ul>
+                    </li>                    
+                      <li class="nav-item">
+                          <a class="nav-link about text-end" href="#"><i class="fas fa-user"></i>&nbsp;Sobre</a>
+                      </li>
+                      <li class="nav-item has-submenu">
+                        <a class="nav-link classes text-end" aria-current="page" href="#"><i class="fas fa-book"></i>&nbsp;Classes&nbsp;<i class="fas fa-sort-down"></i></a>
+                        <ul class="submenu">
+                          <li>
+                            <a href="#classe1">Classe 1</a>
+                          </li>
+                          <li>
+                            <a href="#classe2">Classe 2</a>
+                          </li>
+                          <li>
+                            <a href="#classe3">Classe 3</a>
+                          </li>
+                        </ul>
+                      </li>                    
+                      <li class="nav-item">
+                          <a class="nav-link blog text-end" href="#blog"><i class="fas fa-pencil-alt"></i>&nbsp;Blog</a>
+                      </li>
+                      <li class="nav-item has-submenu">
+                        <a class="nav-link pages text-end" href="#pages"><i class="fas fa-layer-group"></i>&nbsp;Páginas&nbsp;<i class="fas fa-sort-down"></i></a>
+                        <ul class="submenu">
+                          <li>
+                            <a href="../login/telaLoginP.html">Professor</a>
+                          </li>
+                          <li>
+                            <a href="../login/telaLoginC.html">Coordenação</a>
+                          </li>
+                          <li>
+                            <a href="../login/telaLoginR.html">Responsável</a>
+                          </li>
+                          <li>
+                            <a href="#pagina4">Eventos</a>
+                          </li>
+                        </ul>
+                      </li>                    
+                      <li class="nav-item">
+                          <a class="nav-link contact text-end" href="#contact"><i class="fas fa-solid fa-user"></i>&nbsp;Contato&nbsp;&nbsp;</a>
+                      </li>
+                  </ul>
+                  <button type = "button" onclick = "window.location.href = '../login/telaLogin.html';" class = "btn btn-outline-success"> Entrar/Registrar </button>
+              </div>
+          </div>
+      </nav>
+  </header>
+  
+
+    <main>
+      <!-- Tela inicial falando sobre a ISE -->
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <rect width="100%" height="100%" fill="var(--bs-secondary-color)"/>
+              <image href="./../imgs/Capa3.png" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"/>
+            </svg>
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <div class="text-black">
+                  <h1>ISE</h1>
+                  <p>Iremos te ajudar a buscar a melhor forma 
+                  <br>de aprendizado para o seu filho quanto aluno.
+                  <br>Acompanhamento e desenvolvimento 
+                  <br>de perto no ambiente escolar.
+                  </p>
+                  <p><a class="btn btn-lg btn-primary" href="#">Saiba Mais</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container marketing">
+        <!-- Três colunas para acesso do professor, aluno e instituição -->
+        <div class="row">
+          <!-- área do professor -->
+          <div class="col-lg-4">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="var(--bs-secondary-color)"/>
+              <image href="./../imgs/professor.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+            </svg>
+            <h2 class="fw-normal">Professor</h2>
+            <p>Crie uma sala de aula inclusiva para aqueles que mais precisam!</p>
+            <p><a class="btn btn-secondary" href="../login/telaLoginP.html">Acessar &raquo;</a></p>
+          </div>
+        
+          <!-- área do aluno/responsavel -->
+          <div class="col-lg-4">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="var(--bs-secondary-color)"/>
+              <image href="./../imgs/aluno.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+            </svg>
+            <h2 class="fw-normal">Responsável</h2>
+            <p>Guarde as informações e as necessidades especiais do seu filho para prestação de auxílio dos professores.</p>
+            <p><a class="btn btn-secondary" href="../login/telaLoginR.html">Acessar &raquo;</a></p>
+          </div>
+        
+          <!-- área da coordenação -->
+          <div class="col-lg-4">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="var(--bs-secondary-color)"/>
+              <image href="./../imgs/instituicao.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+            </svg>
+            <h2 class="fw-normal">Instituição</h2>
+            <p>Coordene e gerencie, sem perder as informações feitas!</p>
+            <p><a class="btn btn-secondary" href="../login/telaLoginC.html">Acessar &raquo;</a></p>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div id="p1" class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Todos juntos por uma <span class="text-body-secondary">Educação Inclusiva.</span></h2>
+            <p class="lead">Cada aluno com TEA e TDAH tem suas particularidadades e a ISE irá ajudar os professores a buscar a melhor forma no aprendizado desses alunos. Além disso, os pais poderão acompanhar o desenvolvimento dos seus filhos no ambiente escolar. E caso de troca de professor, este substituto terá os dados do aluno, conseguindo assim, auxilio necessario do aprendizado dos alunos, melhorando a convivência com alunos que não são neurodivergentes..</p>
+          </div>
+          <div class="col-md-5">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/>
+              <image href="./../imgs/logoISE.png" width="100%" height="100%"/>
+            </svg>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+    </div>
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Voltar para o Topo</a></p>
+    <p>&copy; 2023-2023 startup, ISE. &middot;</p>
+  </footer>
+</main>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
