@@ -22,10 +22,10 @@ Os participantes discutiram os requisitos técnicos necessários para a conclus�
    Criação da Logo ISE;
    
    * Fernando Augusto Fabiano de Souza: <br>
-   Suporte na escolha do modelo padrão para as páginas de Login/Cadastro/Recuperação de Senha utilizando o Bootstrap; <br>
-   Desenvolvimento de tela de Cadastro; <br>
-   Participação da estruturação da aplicação Web;
-   Desenvolvimento de Script para validação de login inicial (Sem banco de dados), utilizados eventos inline (onclick); <br>
+     Suporte na escolha do modelo padrão para as páginas de Login/Cadastro/Recuperação de Senha utilizando o Bootstrap; <br>
+     Desenvolvimento de tela de Cadastro; <br>
+     Participação da estruturação da aplicação Web;
+     Desenvolvimento de Script para validação de login inicial (Sem banco de dados), utilizados eventos inline (onclick); <br>
    
    * Gabrielle Lorrayne Fernandes Nascimento: <br>
      Desenvolvimento da Homepage; <br>
@@ -43,14 +43,11 @@ Os participantes discutiram os requisitos técnicos necessários para a conclus�
      Participação na organização e estruturação do trabalho. <br>
    
    * Paulo Haniel Macedo de Castro: <br>
-   xxx <br>
-   xyz <br>
-   zzz <br>  
+     Desenvolvimento de telaLogin;<br> 
    
    * Victor Hugo Ferreira: <br>
-   xxx <br>
-   xyz <br>
-   zzz <br>  
+     Desenvolvimento de telas de redirecionamento; <br>
+     Desenvolvimento de tela para professores; <br> 
    
   * Vinícius Caitano do Nascimento: <br>
    Escolha do modelo padrão a ser usado para as páginas de login/cadastro/recuperação de senha. <br>
