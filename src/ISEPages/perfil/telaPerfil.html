@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-br" data-bs-theme="auto">
+  <head>
+    <!-- <script src="../assets/js/color-modes.js"></script> -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>ISE - Inclusion Spectrum Education</title>
+
+    <!-- link da biblioteca do bootstrap, fontAwesome e Css da pagina -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="stylePerfil.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  </head>
+
+  <body>
+    <!-- Cabeçalho do site -->
+    <header class="header-fixed-height">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../homepage/homepage.html">
+              <img src="imgs/logoPadraoISE.png" alt="ISE Logo">
+            </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                  aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">                  
+                  <button class="btn btn-outline-success" type="submit">Voltar</button>
+              </div>
+          </div>
+      </nav>
+  </header>
+  
+
+    <main>
+      <!-- Tela de perfil -->    
+      <div class="container">
+          <div class="row">
+            <h1>Perfil</h1>
+          </div>
+  
+          <form id="form-contato">
+              <div class="form-group row">
+                  <div class="col-sm-8">
+                      <label for="inputNome">Nome (*)</label>
+                      <input type="text" class="form-control" id="inputNome" required placeholder="Informe o nome">
+                  </div>
+              </div>
+              <div class="form-group row">
+                  <div class="col-sm-5">
+                      <label for="inputTelefone">Telefone (*)</label>
+                      <input type="text" class="form-control" id="inputTelefone" required placeholder="Telefone">
+                  </div>
+                  <div class="col-sm-7">
+                      <label for="inputEmail">E-mail (*)</label>
+                      <input type="email" class="form-control" id="inputEmail" required placeholder="Informe o e-mail">
+                  </div>
+              </div>
+              <div class="form-group row">
+                  <div class="col-sm-6">
+                      <label for="inputCidade">Cidade</label>
+                      <input type="text" class="form-control" id="inputCidade" placeholder="Informe a cidade do contato" >
+                  </div>
+                  <div class="col-sm-6">
+                      <label for="inputCategoria">Categoria</label>
+                      <input type="text" class="form-control" id="inputCategoria" required placeholder="Informe a categoria do contato">
+                  </div>
+              </div>
+    
+              <div class="form-group row">
+                  <div class="col-sm-4">
+                      <small>(*) Campos obrigatórios</small>
+                  </div>
+              </div>
+              <div class="form-group row">
+                  <div class="col-sm-12">
+                      <input type="button" class="btn btn-success" id="btnInsert" value="Salvar">
+                      <input type="button" class="btn btn-warning" id="btnUpdate" value="Alterar">
+                  </div>
+              </div>
+          </form>
+        </div>
+              
+    </main>
+  </body>
+</html>
