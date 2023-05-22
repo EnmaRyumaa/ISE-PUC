@@ -44,11 +44,12 @@ Os participantes discutiram os requisitos técnicos necessários para a conclus�
      Participação na organização e estruturação do trabalho. <br>
    
    * Paulo Haniel Macedo de Castro: <br>
-     Desenvolvimento de telaLogin;<br> 
+     Desenvolvimento da tela de Login;<br> 
    
    * Victor Hugo Ferreira: <br>
-     Desenvolvimento de telas de redirecionamento; <br>
-     Desenvolvimento de tela para professores; <br> 
+     Desenvolvimento da tela de redirecionamento; <br>
+     Desenvolvimento da tela dos professores; <br>
+     Auxílio no desenvolvimento de script para validação de login inicial (sem banco de dados), utilizando eventos inline (onclick); <br>
    
   * Vinícius Caitano do Nascimento: <br>
    Escolha do modelo padrão a ser usado para as páginas de login/cadastro/recuperação de senha. <br>
