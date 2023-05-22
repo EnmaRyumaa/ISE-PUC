@@ -19,6 +19,7 @@ Os participantes discutiram os requisitos técnicos necessários para a conclus�
 3) Decisões tomadas: <br>
   * Felipe Tabelini Pena: <br>
    Desenvolvimento da Homepage;<br>
+   Desenvolvimento da pagina dos perfis;<br>
    Criação da Logo ISE;
    
    * Fernando Augusto Fabiano de Souza: <br>
