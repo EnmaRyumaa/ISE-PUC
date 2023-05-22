@@ -37,9 +37,9 @@ Os participantes discutiram os requisitos técnicos necessários para a conclus�
      Suporte no gerenciamento de controle de versão (Git/Github) da aplicação aos membros da minha equipe, auxiliando-os na execução dessa tarefa;<br>   
    
    * Hudson Cordeiro Junior: <br>
-   xxx <br>
-   xyz <br>
-   zzz <br>  
+     Desenvolvimento da Página de responsável; <br>
+     Implementação da estrutura Bootstrap para responsividade; <br>
+     Participação na organização e estruturação do trabalho. <br>
    
    * Paulo Haniel Macedo de Castro: <br>
    xxx <br>
