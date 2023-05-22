@@ -24,7 +24,8 @@ Os participantes discutiram os requisitos técnicos necessários para a conclus�
    * Fernando Augusto Fabiano de Souza: <br>
    Suporte na escolha do modelo padrão para as páginas de Login/Cadastro/Recuperação de Senha utilizando o Bootstrap; <br>
    Desenvolvimento de tela de Cadastro; <br>
-   Participação da estruturação da aplicação Web; <br>
+   Participação da estruturação da aplicação Web;
+   Desenvolvimento de Script para validação de login inicial (Sem banco de dados), utilizados eventos inline (onclick); <br>
    
    * Gabrielle Lorrayne Fernandes Nascimento: <br>
      Desenvolvimento da Homepage; <br>
