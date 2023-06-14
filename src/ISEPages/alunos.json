@@ -1,0 +1,17 @@
+[
+    {
+        "imagem": "../redirecionamento/images/Kid01.png",
+        "nome": "Pedro Souza",
+        "descricao": "• Dificuldades em se envolver nas atividades realizadas pelo(a) educador(a).<br>• Dificuldades em se enturmar com seus colegas de turma."
+    },
+    {
+        "imagem": "../redirecionamento/images/Kid02.png",
+        "nome": "Maria Clara",
+        "descricao": "• Tem uma sensibilidade sensorial intensa.<br>• Maria Clara tem uma sensibilidade sensorial intensa. Ela pode ser facilmente sobrecarregada por estímulos sensoriais."
+    },
+    {
+        "imagem": "../redirecionamento/images/Kid03.png",
+        "nome": "Lucas Douglas",
+        "descricao": "• Ele pode ter interesses restritos e intensos em assuntos específicos, como matemática, ciência ou um hobby particular.<br>• Dificuldades na interação social e em se envolver com os colegas de turma"
+    }
+]
