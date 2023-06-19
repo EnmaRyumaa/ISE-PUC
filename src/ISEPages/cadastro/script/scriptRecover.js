@@ -18,8 +18,6 @@ async function insertValuesInObject(recoverInputName, recoverInputLastName, reco
         password: recoverInputPassword.value
     };
 
-    console.log('press');
-
     return newUser;
 }
 
@@ -33,7 +31,6 @@ async function includeNewUser() {
     );
 
     newStrUser.user.push(objUser);
-    console.log(newStrUser);
 
     if (validateIfFieldEmpty(objUser)) {
         alert("Por favor, preencha todos os campos.");
@@ -85,5 +82,5 @@ function saveObjectInDB(newStrUser) {
     let updatedData = { user: existingUserArray };
     localStorage.setItem('userData', JSON.stringify(updatedData));
 
-    console.log('Object saved in DB');
+    alert('Usuário cadastrado com sucesso!');
 }
