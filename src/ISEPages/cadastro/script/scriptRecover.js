@@ -39,22 +39,26 @@ async function includeNewUser() {
   }
 
   try {
+    await delay(1000);
+
+    const lastUser = await getLastUser();
+    const lastUserID = lastUser ? lastUser.id : 0;
+
+    objUser.id = lastUserID + 1;
+
     const response = await fetch(urlJSON, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify(objUser)
+    }).then(function () {
+        location.reload();
+        alert("Usuário cadastrado");
     });
 
-    if (response.ok) {
-      alert('Usuário cadastrado com sucesso!');
-    } else {
-      throw new Error('Erro ao cadastrar usuário.');
-    }
   } catch (error) {
     console.error('Erro:', error);
-    alert('Erro ao cadastrar usuário. Por favor, tente novamente.');
   }
 }
 
@@ -101,4 +105,22 @@ async function insertValuesInObject(
   };
 
   return newUser;
+}
+
+async function getLastUser() {
+  try {
+    const response = await fetch(urlJSON);
+    const users = await response.json();
+
+    users.sort((a, b) => b.id - a.id);
+
+    return users.length > 0 ? users[0] : null;
+  } catch (error) {
+    console.error('Erro:', error);
+    return null;
+  }
+}
+
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
