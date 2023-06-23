@@ -18,7 +18,9 @@
                     <div class="myform form ">
                         <div class="logo mb-3">
                             <div class="col-md-12 text-center">
-                                <img src="../redirecionamento/images/logo.png" class="w-75 h-75">
+                                <a href="../homepage/homepage/homepage.html">
+                                    <img src="../redirecionamento/images/logo.png" class="w-75 h-75">
+                                </a>
                             </div>
                         </div>
                         <form action="" method="post" name="login">
@@ -30,7 +32,7 @@
                                 <label for="exampleInputEmail1">Senha:</label>
                                 <input type="password" name="password" id="password" class="form-control" aria-describedby="emailHelp" placeholder="Entre com a senha">
                             </div>
-                            <div class="col-md-12 text-center ">
+                            <div class="col-md-12 text-center">
                                 <button type="button" class="btn btn-block mybtn btn-primary tx-tfm" onclick="validate()">Login</button>
                             </div>
                             <div class="col-md-12 ">
@@ -39,13 +41,9 @@
                                     <span class="span-or"></span>
                                 </div>
                             </div>
-                            <div class="col-md-12 mb-3">
-                                <p class="text-center">
-                                    <a href="javascript:void();" class="google btn mybtn"><i class="fa fa-google-plus">
-                                   </i> Conectar com o Google
-                                </a>
-                                </p>
-                            </div>
+                            <a class="g-signin2" data-onsuccess="onSignIn" href="javascript:void();" class="google btn mybtn">
+                                <i class="fa fa-google-plus"></i> Conectar com o Google
+                            </a>
                             <div class="form-group">
                                 <p class="text-center">Não possui conta? <a href="../cadastro/telaCadastro.html" id="signup">Criar conta.</a></p>
                             </div>
@@ -59,33 +57,9 @@
         </div>
     </div>
     </div>
-    <script>
-        function validate(e){
-            let recoverEmail = document.getElementById('email').value;
-            let recoverPassword = document.getElementById('password').value;
 
-            const login = 'login@gmail.com';           
-            const login2 = 'login2@gmail.com';
-            const login3 = 'login3@gmail.com';
-            const password = 'password';
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
 
-            if((recoverEmail === login) && (recoverPassword === password)){
-                console.log("1");
-                window.location.href = '../professor/telaProfessores.html';
-            }            
-            else if((recoverEmail === login2) && (recoverPassword === password)){
-                console.log("2");
-                window.location.href = '../responsavel/telaResponsavel.html';
-            }
-            else if((recoverEmail === login3) && (recoverPassword === password)){
-                console.log("3");
-                window.location.href = '../coordenacao/telaCoordenacao.html';
-            }
-            else{
-                alert("Usuário ou senha incorreto.");
-            }
-            e.preventDefault();
-        }    
-    </script>
+    <script src="scriptLogin.js"></script>
 </body>
 </html>
