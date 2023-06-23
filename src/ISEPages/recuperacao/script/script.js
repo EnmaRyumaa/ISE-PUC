@@ -4,14 +4,16 @@ const recoverSenha = document.getElementById('password');
 const recoverSenhaConf = document.getElementById('passwordConf');
 const recoverButtonSenha = document.getElementById('buttonSenha');
 
-recoverButton.addEventListener('click', function (event) {
-  event.preventDefault();
-  validateEmailInAPI();
+console.log(recoverButton);
+
+recoverButton.addEventListener('click', () => {
+    validateEmailInAPI();
 });
 
-recoverButtonSenha.addEventListener('click', function (event) {
-  event.preventDefault();
-  substituirSenhaNaAPI();
+console.log(recoverEmail);
+
+recoverButtonSenha.addEventListener('click', () => {
+    substituirSenhaNaAPI();
 });
 
 async function substituirSenhaNaAPI() {
@@ -20,28 +22,35 @@ async function substituirSenhaNaAPI() {
 
   if (novaSenha === confirmacaoSenha) {
     try {
-      const number = await validateEmailInAPI();
+      const userData = await getUsersFromAPI();
+      const emailInserted = recoverEmail.value;
 
-      if (number !== -1) {
-        const response = await fetch(
-          `https://api-json-server-tiaw.vercel.app/user/${number}`,
-          {
-            method: 'PATCH',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ password: novaSenha }),
+      if (userData) {
+        for (let i = 0; i < userData.length; i++) {
+          if (emailInserted === userData[i].email) {
+            const response = await fetch(
+              `https://json-server-production-f6c6.up.railway.app/user/${userData[i].id}`,
+              {
+                method: 'PATCH',
+                headers: {
+                  'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ password: novaSenha }),
+              }
+            );
+
+            if (response.ok) {
+              console.log('Senha do usuário atualizada com sucesso!');
+              window.location.href = 'RecuperacaoSenhaAux.html';
+            } else {
+              console.log('Erro ao atualizar a senha do usuário:', response.status);
+            }
+            return;
           }
-        );
-
-        if (response.ok) {
-          console.log('Senha do usuário atualizada com sucesso!');
-          window.location.href = 'RecuperacaoSenhaAux.html';
-        } else {
-          console.log('Erro ao atualizar a senha do usuário:', response.status);
         }
-      } else {
         console.log('Email não encontrado.');
+      } else {
+        console.log('Nenhum dado de usuário encontrado na API.');
       }
     } catch (error) {
       console.log('Erro ao realizar a solicitação para atualizar a senha:', error);
@@ -51,26 +60,42 @@ async function substituirSenhaNaAPI() {
   }
 }
 
+async function getUsersFromAPI() {
+  try {
+    const response = await fetch('https://json-server-production-f6c6.up.railway.app/user');
+    if (response.ok) {
+      const users = await response.json();
+      return users;
+    } else {
+      console.log('Erro ao obter os dados dos usuários:', response.status);
+      return null;
+    }
+  } catch (error) {
+    console.log('Erro ao obter os dados dos usuários:', error);
+    return null;
+  }
+}
+
 async function validateEmailInAPI() {
   const emailInserted = recoverEmail.value;
 
   try {
-    const response = await fetch('https://api-json-server-tiaw.vercel.app/user');
-    const users = await response.json();
+    const userData = await getUsersFromAPI();
 
-    for (let i = 0; i < users.length; i++) {
-      if (emailInserted === users[i].email) {
-        alert('Email existente');
-        window.location.href = "RecuperacaoSenhaAux.html";
-        return users[i].id;
+    if (userData) {
+      for (let i = 0; i < userData.length; i++) {
+        if (emailInserted === userData[i].email) {
+          alert('Email existente');
+          window.location.href = 'RecuperacaoSenhaAux.html';
+          return;
+        }
       }
+      alert('Email não encontrado');
+    } else {
+      console.log('Nenhum dado de usuário encontrado na API.');
     }
-
-    alert('Email não encontrado');
-    return -1;
   } catch (error) {
     alert('Erro ao obter os dados dos usuários');
-    console.log(error);
-    return -1;
+    console.log('Erro ao obter os dados dos usuários:', error);
   }
 }
