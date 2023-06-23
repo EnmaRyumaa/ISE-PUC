@@ -2,7 +2,7 @@ function validate() {
     let recoverEmail = document.getElementById('email').value;
     let recoverPassword = document.getElementById('password').value;
   
-    fetch('https://api-json-server-tiaw.vercel.app/user')
+    fetch('https://json-server-production-f6c6.up.railway.app/user')
       .then(res => res.json())
       .then(users => {
         const escolheUser = users.find(user => user.email === recoverEmail && user.password === recoverPassword);
