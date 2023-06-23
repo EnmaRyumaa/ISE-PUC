@@ -9,13 +9,13 @@ function validate() {
         if (escolheUser) {
           switch (escolheUser.type) {
             case 'professor':
-              window.location.href = '../professor/telaProfessores.html';
+              window.location.href = `../professor/telaProfessores.html?id=${escolheUser.id}`;
               break;
             case 'responsavel':
-              window.location.href = '../responsavel/telaResponsavel.html';
+              window.location.href = `../responsavel/telaResponsavel.html?id=${escolheUser.id}`;
               break;
             case 'coordenacao':
-              window.location.href = '../coordenacao/telaCoordenacao.html';
+              window.location.href = `../coordenacao/telaCoordenacao.html?id=${escolheUser.id}`;
               break;
             default:
               alert('Tipo de usuário inválido');
@@ -27,6 +27,7 @@ function validate() {
       .catch(error => {
         console.error('Erro na requisição:', error);
       });
+
   }
 
  
