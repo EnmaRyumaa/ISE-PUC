@@ -55,6 +55,7 @@ async function includeNewUser() {
     if (response.ok) {
       location.reload();
       alert("Usuário cadastrado");
+      window.location.href = "../login/telaLogin.html";
     } else {
       throw new Error('Erro ao cadastrar o usuário.');
     }
