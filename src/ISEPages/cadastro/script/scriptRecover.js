@@ -5,7 +5,7 @@ const recoverInputPassword = document.getElementById('password');
 const recoverButtonCreate = document.getElementById('bt-create');
 const recoverSelectUserType = document.getElementById('usertype');
 
-const urlJSON = "https://api-json-server-tiaw.vercel.app/user";
+const urlJSON = "https://json-server-production-f6c6.up.railway.app/user";
 
 const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
@@ -39,8 +39,6 @@ async function includeNewUser() {
   }
 
   try {
-    await delay(1000);
-
     const lastUser = await getLastUser();
     const lastUserID = lastUser ? lastUser.id : 0;
 
@@ -52,11 +50,14 @@ async function includeNewUser() {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify(objUser)
-    }).then(function () {
-        location.reload();
-        alert("Usuário cadastrado");
     });
 
+    if (response.ok) {
+      location.reload();
+      alert("Usuário cadastrado");
+    } else {
+      throw new Error('Erro ao cadastrar o usuário.');
+    }
   } catch (error) {
     console.error('Erro:', error);
   }
@@ -119,8 +120,4 @@ async function getLastUser() {
     console.error('Erro:', error);
     return null;
   }
-}
-
-function delay(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
 }
