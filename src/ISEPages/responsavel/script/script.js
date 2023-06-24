@@ -1,3 +1,17 @@
+function exportarAluno(nome, idade, turma, instituicao, descricao) {
+    var element = document.createElement("div");
+    element.classList.add("pdf-content");
+    element.innerHTML = `
+    <h2 class="text-center">${nome}</h2>
+    <p class="text-center">Idade: ${idade}</p>
+    <p class="text-center">Turma: ${turma}</p>
+    <p class="text-center">Instituição: ${instituicao}</p>
+    <p class="text-center">${descricao}</p>
+  `;
+
+    html2pdf().from(element).save("aluno.pdf");
+}
+
 function carregarAlunos() {
     fetch("https://json-server-production-f6c6.up.railway.app/alunos")
         .then((response) => response.json())
@@ -62,7 +76,13 @@ function carregarAlunos() {
                 const downloadLink = $("<a>")
                     .addClass("btn text-white btn-primary")
                     .on("click", () => {
-                        gerarPDF(aluno);
+                        exportarAluno(
+                            aluno.nome,
+                            aluno.idade,
+                            aluno.turma,
+                            aluno.instituicao,
+                            aluno.descricao
+                        );
                     });
 
                 const downloadIcone = $("<i>").addClass("fa fa-download");
@@ -97,6 +117,7 @@ function carregarAlunos() {
             console.log("Ocorreu um erro:", error);
         });
 }
+
 $(document).ready(function () {
     carregarAlunos();
 });
