@@ -1,16 +1,16 @@
 function validate() {
     var url = window.location.href;
-    var paramIndex = url.indexOf('id=');
+    var paramIndex = url.indexOf("id=");
 
     if (paramIndex !== -1) {
-      var number = url.substring(paramIndex + 3);
-      window.location.href = `../perfil/telaPerfil.html?id=${number}`;
-      
+        var number = url.substring(paramIndex + 3);
+        window.location.href = `../perfil/telaPerfil.html?id=${number}`;
     } else {
-      console.log("O parâmetro 'id' não foi encontrado na URL");
+        console.log("O parâmetro 'id' não foi encontrado na URL");
     }
 }
-         
+
+var data = [];
 
 function renderizarDados(data) {
     var container = document.querySelector(".card-deck");
@@ -21,27 +21,33 @@ function renderizarDados(data) {
         var card = document.createElement("div");
         card.classList.add("col-md-6", "mb-4");
         card.innerHTML = `
-    <div class="card">
-      <img src="${item.imagem}" class="rounded-circle mx-auto my-3" style="width: 150px; height: 150px" alt="Imagem do Aluno" />
-      <div class="card-body text-center">
-        <h5 class="card-title">${item.nome}</h5>
-        <div class="card-text">${item.descricao}</div>
-        <div class="card-edit" style="display: none;">
-          <input type="text" class="form-control mb-2" value="${item.nome}">
-          <textarea class="form-control">${item.descricao}</textarea>
+        <div class="card">
+        <div class="text-end">
+            <button class="btn text-danger float-right" onclick="excluirAlunoModal(${item.id})">
+                <i class="fa fa-trash"></i>
+            </button>
         </div>
-        <div class="card-icons pt-3"> 
-          <button class="bg-white border-0" onclick="exportarAluno('${item.nome}', '${item.descricao}')">
-            <i class="fa fa-folder mx-3"></i> Exportar
-          </button>
-          <button class="bg-white border-0" onclick="toggleEdicao(this)">
-            <i class="fa fa-pencil mx-3"></i> Editar
-          </button>
-          <button class="bg-white border-0" style="display: none;" onclick="salvarEdicao(this, ${item.id}, '${item.imagem}')">
-            <i class="fa fa-check mx-3"></i> Salvar
-          </button>
+
+        <img src="${item.imagem}" class="rounded-circle mx-auto my-3" style="width: 150px; height: 150px" alt="Imagem do Aluno" />
+        <div class="card-body text-center">
+            <h6 class="card-title"> ${item.nome}</h6>
+            <div class="card-text">${item.descricao}</div>
+            <div class="card-edit" style="display: none;">
+                <input type="text" class="form-control mb-2" value="${item.nome}">
+                <textarea class="form-control">${item.descricao}</textarea>
+            </div>
+            <div class="card-icons pt-3"> 
+                <button class="bg-white border-0" onclick="exportarAluno('${item.nome}', '${item.descricao}')">
+                    <i class="fa fa-folder mx-3"></i> Exportar
+                </button>
+                <button class="bg-white border-0" onclick="toggleEdicao(this)">
+                    <i class="fa fa-pencil mx-3"></i> Editar
+                </button>
+                <button class="bg-white border-0" style="display: none;" onclick="salvarEdicao(this, ${item.id}, '${item.imagem}')">
+                    <i class="fa fa-check mx-3"></i> Salvar
+                </button>
+            </div>
         </div>
-      </div>
     </div>
   `;
         container.appendChild(card);
@@ -87,20 +93,62 @@ function salvarEdicao(button, id, imagem) {
 
     var payload = {
         id: id,
-        nome: nomeInput.value,
-        descricao: descricaoInput.value,
         imagem: imagem,
+        descricao: descricaoInput.value,
+        nome: nomeInput.value,
     };
 
-    // Envia o método PUT para a API com os dados atualizados
-    fetch(`https://api-json-server-tiaw.vercel.app/alunos/${id}`, {
+    fetch(`https://json-server-production-f6c6.up.railway.app/alunos/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",
         },
         body: JSON.stringify(payload),
-    }).then(function () {
-        location.reload();
+    }).then(function (data) {
+        atualizarListagem();
+    });
+}
+
+function atualizarListagem() {
+    fetch("https://json-server-production-f6c6.up.railway.app/alunos")
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
+            renderizarDados(data);
+        });
+}
+function criarAluno() {
+    var nome = document.getElementById("nomeInput").value;
+    var descricao = document.getElementById("descricaoInput").value;
+    var imagem =
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtykuk3N_onxTc76ii1tYkTzmvdn7VEFhTvA5Cfk&s";
+
+    var ultimoId = data[data.length - 1]?.id;
+    var novoId = ultimoId + 1;
+
+    var novoAluno = {
+        id: novoId,
+        imagem: imagem,
+        descricao: descricao,
+        nome: nome,
+    };
+
+    fetch("https://json-server-production-f6c6.up.railway.app/alunos", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(novoAluno),
+    }).then(function (response) {
+        if (response.ok) {
+            console.error(response, "response");
+            atualizarListagem();
+            $("#criarModal").modal("hide");
+
+            document.getElementById("nomeInput").value = "";
+            document.getElementById("descricaoInput").value = "";
+        }
     });
 }
 
@@ -115,7 +163,26 @@ function exportarAluno(nome, descricao) {
     html2pdf().from(element).save("aluno.pdf");
 }
 
-fetch("https://api-json-server-tiaw.vercel.app/alunos")
+function excluirAlunoModal(id) {
+    var modal = document.getElementById("confirmacaoModal");
+    var confirmarBotao = modal.querySelector("#confirmarExclusao");
+    confirmarBotao.setAttribute("data-id", id);
+
+    $(modal).modal("show");
+}
+
+function excluirAluno(id) {
+    fetch(`https://json-server-production-f6c6.up.railway.app/alunos/${id}`, {
+        method: "DELETE",
+    }).then(function (response) {
+        if (response.ok) {
+            atualizarListagem();
+            $("#confirmacaoModal").modal("hide");
+        }
+    });
+}
+
+fetch("https://json-server-production-f6c6.up.railway.app/alunos")
     .then(function (response) {
         return response.json();
     })
