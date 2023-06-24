@@ -97,3 +97,6 @@ function carregarAlunos() {
             console.log("Ocorreu um erro:", error);
         });
 }
+$(document).ready(function () {
+    carregarAlunos();
+});
