@@ -17,7 +17,6 @@ Criação de uma aplicação que auxilia o aprendizado de alunos com TEA e TDAH 
 * Guilherme Nunes Faria
 * Hudson Cordeiro Junior
 * João Victor Silva Thomazi
-* Paulo Haniel Macedo de Castro
 * Victor Hugo Ferreira
 * Vinícius Caitano do Nascimento
 
