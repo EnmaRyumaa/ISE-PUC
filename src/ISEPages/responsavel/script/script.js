@@ -1,3 +1,15 @@
+function validate() {
+    var url = window.location.href;
+    var paramIndex = url.indexOf("id=");
+
+    if (paramIndex !== -1) {
+        var number = url.substring(paramIndex + 3);
+        window.location.href = `../perfil/telaPerfil.html?id=${number}`;
+    } else {
+        console.log("O parâmetro 'id' não foi encontrado na URL");
+    }
+}
+
 function exportarAluno(nome, idade, turma, instituicao, descricao) {
     const caracteristicasFormatadas = descricao.replace(/•/g, "<br>•");
 
