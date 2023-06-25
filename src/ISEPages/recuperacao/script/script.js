@@ -41,7 +41,7 @@ async function substituirSenhaNaAPI() {
 
             if (response.ok) {
               console.log('Senha do usuário atualizada com sucesso!');
-              window.location.href = 'RecuperacaoSenhaAux.html';
+              window.location.href = '../homepage/homepage/homepage.html';
             } else {
               console.log('Erro ao atualizar a senha do usuário:', response.status);
             }
