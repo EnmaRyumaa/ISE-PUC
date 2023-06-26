@@ -1,10 +1,14 @@
 # Plano de Testes de Software
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+<image src="./img/teste.png">
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
 ## Ferramentas de Testes (Opcional)
+
+As seguintes ferramentas serão empregadas neste projeto de testes:
+
+• VSCode (Editor de Código).
+• HTML5, Bootstrap, CRUD JSON Server, CSS e JavaScript (Tecnologias).
+• Deploy AWS (Nuvem).
 
 Comente sobre as ferramentas de testes utilizadas.
  
