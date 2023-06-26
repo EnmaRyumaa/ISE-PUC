@@ -45,15 +45,32 @@ body {
       background-color: rgb(255, 255, 255);
       border: 1px solid rgba(0, 0, 0, .2);
       border-radius: 10px;
+      
    }
 } 
 
 @media screen and (max-width: 800px ) and (min-width: 479px){
    #mainBox-Register{
       height: 65%;
-      width: 40%;
+      width: 60%;
       background-color: rgb(255, 255, 255);
       border: 1px solid rgba(0, 0, 0, .2);
       border-radius: 10px;
+      
    }
 }
+
+@media screen and (min-height:650px){
+   .back-box{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding-top: 0px;
+   }
+}
+
+#mainBox-Register {
+   overflow: auto;
+   max-height: 600px; /* Defina uma altura máxima para a seção */
+ }
