@@ -187,47 +187,54 @@ function atualizarListagem() {
             renderizarDados(data);
         });
 }
+
 function criarAluno() {
     var nome = document.getElementById("nomeInput").value;
     var descricao = document.getElementById("descricaoInput").value;
     var idade = document.getElementById("idadeInput").value;
     var turma = document.getElementById("turmaInput").value;
     var instituicao = document.getElementById("instituicaoInput").value;
-    var imagem =
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtykuk3N_onxTc76ii1tYkTzmvdn7VEFhTvA5Cfk&s";
 
-    var ultimoId = data[data.length - 1]?.id;
-    var novoId = ultimoId + 1;
+    // Verifica se todos os campos estão preenchidos
+    if (nome && descricao && idade && turma && instituicao) {
+        var imagem =
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtykuk3N_onxTc76ii1tYkTzmvdn7VEFhTvA5Cfk&s";
 
-    var novoAluno = {
-        id: novoId,
-        imagem: imagem,
-        descricao: descricao,
-        nome: nome,
-        idade: idade,
-        turma: turma,
-        instituicao: instituicao,
-    };
+        var ultimoId = data[data.length - 1]?.id;
+        var novoId = ultimoId + 1;
 
-    fetch("https://json-server-production-f6c6.up.railway.app/alunos", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-        },
-        body: JSON.stringify(novoAluno),
-    }).then(function (response) {
-        if (response.ok) {
-            console.error(response, "response");
-            atualizarListagem();
-            $("#criarModal").modal("hide");
+        var novoAluno = {
+            id: novoId,
+            imagem: imagem,
+            descricao: descricao,
+            nome: nome,
+            idade: idade,
+            turma: turma,
+            instituicao: instituicao,
+        };
 
-            document.getElementById("nomeInput").value = "";
-            document.getElementById("descricaoInput").value = "";
-            document.getElementById("idadeInput").value = "";
-            document.getElementById("turmaInput").value = "";
-            document.getElementById("instituicaoInput").value = "";
-        }
-    });
+        fetch("https://json-server-production-f6c6.up.railway.app/alunos", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(novoAluno),
+        }).then(function (response) {
+            if (response.ok) {
+                console.error(response, "response");
+                atualizarListagem();
+                $("#criarModal").modal("hide");
+
+                document.getElementById("nomeInput").value = "";
+                document.getElementById("descricaoInput").value = "";
+                document.getElementById("idadeInput").value = "";
+                document.getElementById("turmaInput").value = "";
+                document.getElementById("instituicaoInput").value = "";
+            }
+        });
+    } else {
+        alert("Por favor, preencha todos os campos.");
+    }
 }
 
 function exportarAluno(nome, idade, turma, instituicao, descricao) {
