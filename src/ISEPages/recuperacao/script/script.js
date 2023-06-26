@@ -12,7 +12,7 @@ recoverButton.addEventListener('click', () => {
 
 console.log(recoverEmail);
 
-recoverButtonSenha.addEventListener('click', () => {
+recoverButtonSenha?.addEventListener('click', () => {
     substituirSenhaNaAPI();
 });
 
