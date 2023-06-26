@@ -1,227 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-  <title>ISE</title>
+        <title>ISE</title>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-</head>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="/src/professor/styles.css" />
+    </head>
 
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="../homepage/homepage/homepage.html">
-          <img src="images/logoISE.png" width="180" height="180" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a href="../perfil/telaPerfil.html" class="d-flex justify-content-center align-items-center btn btn-outline-success mt-2 mr-4">
-                <i class="fa fa-user pr-2"></i>Perfil
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <img src="images/Teacher01.png"
-                  class="d-flex justify-content-center align-items-center rounded-circle"
-                  style="width: 100px; height: 100px" alt="C" />
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <section>
-    <div class="container mb-3">
-      <div class="row pt-3 d-flex justify-content-center">
-        <div class="col-12 col-md-3 card py-2 bg-light d-flex align-items-center">
-          <div class="dropdown">
-            <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Área do Professor
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Alunos</a>
-              <a class="dropdown-item" href="#">Instituição</a>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="../homepage/homepage/homepage.html">
+                        <img src="../redirecionamento/images/logo.png" alt = "logo" style="height: 140px; width: 140px;" />
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a >
+                                    <!-- <i class="fa fa-user pr-2"></i>Perfil -->
+                                    <button type="button" class="d-flex justify-content-center align-items-center btn btn-outline-success mt-2 mr-4" onclick="validate()">Perfil</button>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <img
+                                        src="../redirecionamento/images/profile2.png"
+                                        class="d-flex justify-content-center align-items-center rounded-circle"
+                                        style="width: 45px; height: 45px"
+                                        alt="C"
+                                    />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <div class="container mb-3">
+                <div class="row pt-3 d-flex justify-content-center">
+                    <div
+                        class="col-12 col-md-3 card py-2 bg-light"
+                    > 
+                        <div class="dropdown d-flex align-items-center justify-content-center">
+                            <button
+                                class="btn btn-success dropdown-toggle"
+                                type="button"
+                                id="dropdownMenuButton"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                            >
+                                Área do Professor
+                            </button>
+                            <div
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownMenuButton"
+                            >
+                                <a class="dropdown-item" href="#"
+                                    >Alunos cadastrados</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Notas do corpo docente</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <div class="row ml-1">
+                        <div class="card bg-light col-md-10">
+                            <div class="card-body">
+                                <h5 class="card-title">Filtro</h5>
+                                <form>
+                                    <div class="form-row">
+                                        <div class="form-group col-4">
+                                            <select
+                                                class="form-control"
+                                                id="select1"
+                                            >
+                                                <option></option>
+                                                <option value="1">Pedro Souza</option>
+                                                <option value="2">
+                                                    Maria Clara
+                                                </option>
+                                                <option value="3">
+                                                    Lucas Douglas
+                                                </option>
+                                            </select>
+                                        </div>
+                                        
+                                        <div class="form-group col-8">
+                                            <div class="input-group">
+                                                <input
+                                                    type="text"
+                                                    class="form-control"
+                                                    id="inputMaior"
+                                                    placeholder="Buscar (Aluno, instituição e etc...)"
+                                                />
+                                                <div class="input-group-append">
+                                                    <button
+                                                        class="input-group-text"
+                                                    >
+
+                                                        <i
+                                                        class="fa fa-search"
+                                                        aria-hidden="true"
+                                                        ></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <button class="btn btn-success" data-toggle="modal" data-target="#criarModal">
+                                <i class="fa fa-plus pr-2 m-1"></i> <span>Criar</span>
+                            </button>
+                        </div> -->
+
+                        <div class="card mt-3 bg-light">
+                            <div class="card-deck p-3"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-9">
-          <div class="card bg-light">
-            <div class="card-body">
-              <h5 class="card-title">Filtro</h5>
-              <form>
-                <div class="form-row">
-                  <div class="form-group col-3">
-                    <select class="form-control" id="select1">
-                      <option> Alunos(as) </option>
-                      <option value="1"> Pedro Souza </option>
-                      <option value="2"> Maria Clara </option>
-                      <option value="3"> Lucas Douglas </option>
-                    </select>
-                  </div>
-                  <div class="form-group col-3">
-                    <select class="form-control" id="select2">
-                      <option> Instituição </option>
-                      <option value="1"> E.M Padre Flávio </option>
-                      <option value="2"> Rodrigues Campos </option>
-                      <option value="3"> Santa Rita de Cássia </option>
-                    </select>
-                  </div>
-                  <div class="form-group col-6">
-                    <div class="input-group">
-                      <input type="text" class="form-control" id="inputMaior"
-                        placeholder="Buscar (Aluno, instituição e etc...)" />
-                      <div class="input-group-append">
-                        <button class="input-group-text">
-
-                          <i class="fa fa-search" aria-hidden="true"></i>
-                        </button>
+        </section>
+        <div class="modal fade" id="criarModal" tabindex="-1" role="dialog" aria-labelledby="criarModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="criarModalLabel">Criar Novo Aluno</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="nomeInput">Nome</label>
+                      <input type="text" class="form-control" id="nomeInput" placeholder="Digite o nome do aluno">
+                    </div>
+                    <div class="form-group">
+                      <label for="idadeInput">Idade</label>
+                      <input type="text" class="form-control" id="idadeInput" placeholder="Digite a idade do aluno">
+                    </div>
+                    <div class="form-group">
+                      <label for="turmaInput">Turma</label>
+                      <input type="text" class="form-control" id="turmaInput" placeholder="Digite a turma do aluno">
+                    </div>
+                    <div class="form-group">
+                      <label for="instituicaoInput">Instituição</label>
+                      <input type="text" class="form-control" id="instituicaoInput" placeholder="Digite a instituição do aluno">
+                    </div>
+                    <div class="form-group">
+                        <label for="descricaoInput">Descrição</label>
+                        <textarea class="form-control" id="descricaoInput" placeholder="Digite a descrição do aluno"></textarea>
                       </div>
-                    </div>
-                  </div>
+                  </form>
                 </div>
-              </form>
-            </div>
-          </div>
-          <div class="card card-inner">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-3">
-                  <img src="images/Kid01.png" class="img img-rounded img-fluid" />
-                  <p class="text-secondary text-center">Pedro Souza<br>
-                    • Idade: 8 Anos<br>
-                    • Turma: 2B/EF1<br>
-                    • Instituição: E.M Padre Flávio</p>
-                </div>
-                <div class="col-md-9">
-                  <p><a><strong>Características:</strong></a>
-                  </p>
-                  <p><br>
-                    • Dificuldades em se envolver nas atividades realizadas pelo(a) educador(a).<br>
-                    • Dificuldades em se enturmar com seus colegas de turma.<br><br>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <label for="description"> Observações:</label>
-                      <textarea class="form-control" id="description"
-                        placeholder="Insira suas observações aqui:"></textarea>
-                    </div>
-                    <div>
-                    </div>
-
-                  </div>
-                  </p>
-                  <p>
-                    <a class="float-right btn text-white btn btn-primary ml-2"><i class="fa fa-pencil"></i></a>
-                    <a class="float-right btn text-white btn-primary ml-2"><i class="fa fa-file"></i></a>
-                    <a class="float-right btn text-white btn-primary"><i class="fa fa-download"></i></a>
-
-                  </p>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                  <button type="button" class="btn btn-primary" onclick="criarAluno()">Criar</button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="card card-inner">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-3">
-                  <img src="images/Kid02.png" class="img img-rounded img-fluid" />
-                  <p class="text-secondary text-center">Maria Clara<br>
-                    • Idade: 9 Anos<br>
-                    • Turma: 3A/EF1<br>
-                    • Instituição: E.M Padre Flávio</p>
-                </div>
-                <div class="col-md-9">
-                  <p><a><strong>Características:</strong></a>
-                  </p>
-                  <p><br>
-                    • Dificuldades em se envolver nas atividades realizadas pelo(a) educador(a).<br>
-                    • Dificuldades em se enturmar com seus colegas de turma.<br><br>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <label for="description"> Observações:</label>
-                      <textarea class="form-control" id="description"
-                        placeholder="Insira suas observações aqui:"></textarea>
-                    </div>
-                    <div>
-                    </div>
+          
 
-                  </div>
-                  </p>
-                  <p>
-                    <a class="float-right btn text-white btn btn-primary ml-2"><i class="fa fa-pencil"></i></a>
-                    <a class="float-right btn text-white btn-primary ml-2"><i class="fa fa-file"></i></a>
-                    <a class="float-right btn text-white btn-primary"><i class="fa fa-download"></i></a>
-
-                  </p>
+          <div class="modal" id="confirmacaoModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Confirmação de Exclusão</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Deseja excluir esse(a) aluno(a)?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" id="confirmarExclusao" onclick="excluirAluno(this.getAttribute('data-id'))">Sim</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="card card-inner">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-3">
-                  <img src="images/Kid03.png" class="img img-rounded img-fluid" />
-                  <p class="text-secondary text-center">Lucas Douglas<br>
-                    • Idade: 8 Anos<br>
-                    • Turma: 2A/EF1<br>
-                    • Instituição: E.M Padre Flávio</p>
-                </div>
-                <div class="col-md-9">
-                  <p><a><strong>Características:</strong></a>
-                  </p>
-                  <p><br>
-                    • Dificuldades em se envolver nas atividades realizadas pelo(a) educador(a)<br>
-                    • Dificuldades em se enturmar com seus colegas de turma.<br><br>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <label for="description"> Observações:</label>
-                      <textarea class="form-control" id="description"
-                        placeholder="Insira suas observações aqui:"></textarea>
-                    </div>
-                    <div>
-                    </div>
-
-                  </div>
-                  </p>
-                  <p>
-                    <a class="float-right btn text-white btn btn-primary ml-2"><i class="fa fa-pencil"></i></a>
-                    <a class="float-right btn text-white btn-primary ml-2"><i class="fa fa-file"></i></a>
-                    <a class="float-right btn text-white btn-primary"><i class="fa fa-download"></i></a>
-
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-    </div>
-    </div>
-  </section>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
+          
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+        <script src="professores.js"></script>
+        
+    </body>
 </body>
-</body>
-
 </html>
