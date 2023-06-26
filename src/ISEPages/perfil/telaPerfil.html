@@ -27,38 +27,36 @@
                   aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">                  
-                  <button class="btn btn-outline-success" type="submit">Voltar</button>
-              </div>
+              <!-- <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">                  
+                  <button href="../"class="btn btn-outline-success" type="submit">Voltar</button>
+              </div> -->
           </div>
       </nav>
   </header>
   
-
     <main>
       <!-- Tela de perfil -->    
       <div class="container">
           <div class="row">
             <h1>Perfil</h1>
           </div>
-  
-          <form id="form-contato">
+            <form id="form-contato">
               <div class="form-group row">
                   <div class="col-sm-8">
                       <label for="inputNome">Nome (*)</label>
-                      <input type="text" class="form-control" id="inputNome" required placeholder="Informe o nome">
+                      <input type="text" class="form-control" id="inputNome" required placeholder="Informe o nome" disabled>
                   </div>
               </div>
               <div class="form-group row">
-                  <div class="col-sm-5">
-                      <label for="inputTelefone">Telefone (*)</label>
-                      <input type="text" class="form-control" id="inputTelefone" required placeholder="Telefone">
-                  </div>
+                <div class="col-sm-8">
+                    <label for="inputSobrenome">Sobrenome (*)</label>
+                    <input type="text" class="form-control" id="inputSobrenome" required placeholder="Informe o sobrenome" disabled>
+                </div>
               </div>
               <div class="form-group row">
                 <div class="col-sm-7">
                     <label for="inputEmail">E-mail (*)</label>
-                    <input type="email" class="form-control" id="inputEmail" required placeholder="Informe o e-mail">
+                    <input type="email" class="form-control" id="inputEmail" required placeholder="Informe o e-mail" disabled>
                 </div>
               </div>
     
