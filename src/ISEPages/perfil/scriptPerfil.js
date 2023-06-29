@@ -1,3 +1,23 @@
+function validate() {
+  fetch(`https://json-server-production-f6c6.up.railway.app/user/${number}`)
+  .then(response => response.json())
+  .then(users => {
+      switch (users.type) {
+        case 'professor':
+          window.location.href = `../professor/telaProfessores.html?id=${number}`;
+          break;
+        case 'responsavel':
+          window.location.href = `../responsavel/telaResponsavel.html?id=${number}`;
+          break;
+        case 'coordenacao':
+          window.location.href = `../coordenacao/telaCoordenacao.html?id=${number}`;
+          break;
+        default:
+          alert('Tipo de usuário inválido');
+      } 
+    });
+}
+
 function preencherFormulario(users) {
     document.getElementById('inputNome').value = users.name;
     document.getElementById('inputEmail').value = users.email;
@@ -8,6 +28,11 @@ function habilitarEdicao() {
     document.getElementById('inputNome').removeAttribute('disabled');
     document.getElementById('inputEmail').removeAttribute('disabled');
     document.getElementById('inputSobrenome').removeAttribute('disabled');
+}
+function desabilitarEdicao() {
+  document.getElementById('inputNome').disabled=true;
+  document.getElementById('inputEmail').disabled=true;
+  document.getElementById('inputSobrenome').disabled=true;
 }
 
 function atualizarDados() {
@@ -30,8 +55,8 @@ function atualizarDados() {
     })
       .then(response => response.json())
       .then(users => {
+        desabilitarEdicao();
         alert('Dados atualizados:', users);
-        
       })
       .catch(error => {
         console.error('Erro ao atualizar os dados:', error);
