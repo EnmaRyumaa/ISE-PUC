@@ -187,6 +187,7 @@ function atualizarListagem() {
             renderizarDados(data);
         });
 }
+
 function criarAluno() {
     var nome = document.getElementById("nomeInput").value;
     var descricao = document.getElementById("descricaoInput").value;
@@ -269,10 +270,30 @@ function excluirAluno(id) {
     });
 }
 
+function filtrarAlunosPorNome(e) {
+    e.preventDefault();
+    var filtro = document.getElementById("inputMaior").value.trim();
+
+    if (filtro) {
+        var alunosFiltrados = data.filter(function (aluno) {
+            return aluno.nome.toLowerCase().includes(filtro.toLowerCase());
+        });
+
+        renderizarDados(alunosFiltrados);
+    } else {
+        renderizarDados(data);
+    }
+}
+
+document
+    .getElementById("btnBuscar")
+    .addEventListener("click", filtrarAlunosPorNome);
+
 fetch("https://json-server-production-f6c6.up.railway.app/alunos")
     .then(function (response) {
         return response.json();
     })
-    .then(function (data) {
+    .then(function (alunos) {
+        data = alunos;
         renderizarDados(data);
     });
