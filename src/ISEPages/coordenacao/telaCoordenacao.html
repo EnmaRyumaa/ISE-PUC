@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-        <meta charset="UTF-8" />
+        <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
@@ -25,7 +25,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <a class="navbar-brand" href="../homepage/homepage/homepage.html">
-                        <img src="../redirecionamento/images/logo.png" alt = "logo" style="height: 65px; width: 100px;" />
+                        <img src="../redirecionamento/images/logo.png" alt = "logo" style="height:140px; width: 140px;" />
                     </a>
                     <button
                         class="navbar-toggler"
@@ -42,8 +42,7 @@
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
                                 <a >
-                                    <!-- <i class="fa fa-user pr-2"></i>Perfil -->
-                                    <button type="button" class="d-flex justify-content-center align-items-center btn btn-outline-success mt-2 mr-4" onclick="validate()">Perfil</button>
+                                    <button type="button" class="d-flex justify-content-center align-items-center btn btn-outline-success mt-3 mr-4" onclick="validate()"><i class="fa fa-user pr-2"></i> Perfil</button>
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -51,7 +50,7 @@
                                     <img
                                         src="../redirecionamento/images/profile.png"
                                         class="d-flex justify-content-center align-items-center rounded-circle"
-                                        style="width: 35px; height: 35px"
+                                        style="width: 50px; height: 50px"
                                         alt="C"
                                     />
                                 </a>
@@ -93,44 +92,24 @@
                     </div>
                     <div class="col-12 col-md-9">
                         <div class="row ml-1">
-                        <div class="card bg-light col-md-10">
+                        <div class="card bg-light col-md-9">
                             <div class="card-body">
                                 <h5 class="card-title">Filtro</h5>
                                 <form>
                                     <div class="form-row">
-                                        <div class="form-group col-4">
-                                            <select
-                                                class="form-control"
-                                                id="select1"
-                                            >
-                                                <option></option>
-                                                <option value="1">Pedro Souza</option>
-                                                <option value="2">
-                                                    Maria Clara
-                                                </option>
-                                                <option value="3">
-                                                    Lucas Douglas
-                                                </option>
-                                            </select>
-                                        </div>
+                                      
                                         
-                                        <div class="form-group col-8">
+                                        <div class="form-group col-12">
                                             <div class="input-group">
                                                 <input
                                                     type="text"
                                                     class="form-control"
                                                     id="inputMaior"
-                                                    placeholder="Buscar (Aluno, instituição e etc...)"
+                                                    placeholder="Buscar aluno(a)"
                                                 />
                                                 <div class="input-group-append">
-                                                    <button
-                                                        class="input-group-text"
-                                                    >
-
-                                                        <i
-                                                        class="fa fa-search"
-                                                        aria-hidden="true"
-                                                        ></i>
+                                                    <button class="input-group-text" id="btnBuscar">
+                                                        <i class="fa fa-search" aria-hidden="true"></i>
                                                     </button>
                                                 </div>
                                             </div>
@@ -139,9 +118,9 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                        <div class="col-md-3 d-flex justify-content-center align-items-center">
                             <button class="btn btn-success" data-toggle="modal" data-target="#criarModal">
-                                <i class="fa fa-plus pr-2 m-1"></i> <span>Criar</span>
+                                <i class="fa fa-plus pr-2 m-1"></i> <span>Cadastrar</span>
                             </button>
                         </div>
 
@@ -156,7 +135,7 @@
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="criarModalLabel">Criar Novo Aluno</h5>
+                  <h5 class="modal-title" id="criarModalLabel">Cadastrar Aluno(a)</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
                     <span aria-hidden="true">&times;</span>
                   </button>
